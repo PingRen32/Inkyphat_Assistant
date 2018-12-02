@@ -19,3 +19,5 @@ The speech recognition is done through SpeechRecognition libiary.
 https://github.com/realpython/python-speech-recognition
 
 This repo will be constantly updated.
+
+![Greeting](../master/test_images/ShibaInu_startup.jpg)
