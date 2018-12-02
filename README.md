@@ -20,4 +20,6 @@ https://github.com/realpython/python-speech-recognition
 
 This repo will be constantly updated.
 
+(I am using os.system for calling, not a good practice but there is conflict between 2.7 and 3.4 in my raspbian)
+
 ![Greeting](../master/test_images/ShibaInu_startup.jpg)
