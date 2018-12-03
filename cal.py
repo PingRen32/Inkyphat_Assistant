@@ -40,8 +40,6 @@ def print_digit(position, digit, colour):
     inkyphat.paste(colour, (o_x, o_y), sprite)
 
 def print_number(position, number, colour):
-    """Prints a number using the sprite sheet."""
-
     for digit in str(number):
         print_digit(position, int(digit), colour)
         position = (position[0] + 8, position[1])

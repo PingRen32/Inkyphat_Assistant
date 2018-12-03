@@ -12,9 +12,12 @@ while True:
         text = r.recognize_google(audio)
         print(text)
         if "logo" in text:
-            os.system('python3 logo.py yellow')
+            os.system('python3 logo.py')
         elif "calendar" in text:
-            os.system('python3 cal.py yellow')
+            os.system('python3 cal.py')
+        elif "clean" in text:
+            os.system('python3 clean.py')
+            os.system('python3 message.py Done!')
         else:
             continue
     except sr.UnknownValueError:

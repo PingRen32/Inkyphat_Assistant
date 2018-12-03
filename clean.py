@@ -3,7 +3,6 @@ import time
 import sys
 
 inkyphat.set_colour("yellow")
-
 cycles = 3
 
 colours = (inkyphat.RED, inkyphat.BLACK, inkyphat.WHITE)
