@@ -1,6 +1,6 @@
 # Backgrounds PNG Information
 
-All pictures inside this folder is personal made pixil arts inspired by several Line stickers
+All pictures inside this folder is personal made pixil arts inspired by several [Line stickers](https://store.line.me/stickershop/showcase/top/).
 
 You could check them out in [my gallery](https://www.pixilart.com/pingrenworkhard/gallery).
 
