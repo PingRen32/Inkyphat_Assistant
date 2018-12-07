@@ -125,7 +125,7 @@ clean (eink color cleaning, clear up color after multiple uses)
 
 All .png artwork is done through Pixilart and organized in [my gallery](https://www.pixilart.com/pingrenworkhard/gallery).
 
-Check out [Artwork.md](master/resources/ShibaInu_resources/Artwork.md) for more information.
+Check out [Artwork Information](master/resources/ShibaInu_resources/ARTWORK.md) for more information.
 
 ## Notes
 
