@@ -8,6 +8,7 @@ Two SanDisk Cruzer 32 GB flash drive and one Kinobo usb mini microphone are used
 
 ![Greeting](../master/test_images/ShibaInu_startup.jpg)
 
+---
 ## Get Started
 
 If you would prefer a pre-soldered Raspberry pi zero w as i did, buy one along the Inkyphat from adafruit:
@@ -127,6 +128,7 @@ All .png artwork is done through Pixilart and organized in [my gallery](https://
 
 Check out [Artwork Information](https://github.com/PingRen32/Inkyphat_Assistant/blob/master/resources/ShibaInu_resources/ARTWORK.md) for more information.
 
+---
 ## Notes
 
 This repo will be constantly updated as developed.
