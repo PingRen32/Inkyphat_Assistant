@@ -4,7 +4,7 @@ Building a speech controled multi-functional deskside gadget.
 
 This is a personal project working with Raspberry pi zero w, Pimoroni Inkyphat and MakerSpot 4-port USB HubHAT.
 
-Two SanDisk Cruzer 32 GB flash drive and Kinobo usb mini microphone are used for hardware extensions.
+Two SanDisk Cruzer 32 GB flash drive and one Kinobo usb mini microphone are used for hardware extensions.
 
 ![Greeting](../master/test_images/ShibaInu_startup.jpg)
 
