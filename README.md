@@ -2,9 +2,15 @@
 
 Building a speech controled multi-functional deskside gadget.
 
+This is a personal project, progress is made weekly.
+
+## Hardware Used
+
 This is a personal project working with Raspberry pi zero w, Pimoroni Inkyphat and MakerSpot 4-port USB HubHAT.
 
 Two SanDisk Cruzer 32 GB flash drive and one Kinobo usb mini microphone are used for hardware extensions.
+
+(USB not yet used in current version, but necessary in future update)
 
 ![Greeting](../master/test_images/ShibaInu_startup.jpg)
 
@@ -118,6 +124,13 @@ Clone this git repo offline,
 git clone https://github.com/PingRen32/Inkyphat_Assistant
 ```
 
+Run main.py through python 3.4+,
+
+```
+cd Inkyphat_Assistant
+python3 main.py
+```
+
 ### Function Availiable
 
 The speech recognition is set to catch keywords that triggers different functions. Current audio keyword contains:
@@ -127,6 +140,8 @@ logo (showing the original logo from inkyphat)
 calendar (showing calendar)
 clean (eink color cleaning, clear up color after multiple uses)
 ```
+
+Updates for more functions in progress.
 
 (I am using os.system for calling in main.py, not a good practice but there is conflict between 2.7 and 3.4 in my raspbian)
 
