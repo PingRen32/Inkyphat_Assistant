@@ -89,7 +89,7 @@ sudo apt-get upgrade
 To support microphone audio input, [Pyaudio](https://people.csail.mit.edu/hubert/pyaudio/) is needed.
 
 ```
-sudo pip install pyaudio
+sudo pip3 install pyaudio
 ```
 
 Note that 'sudo' is necessary only if there is permission error during installing.
@@ -98,24 +98,39 @@ Note that 'sudo' is necessary only if there is permission error during installin
 In this project, I used python [SpeechRecognition library](https://github.com/realpython/python-speech-recognition) for speech recognition.
 
 ```
-sudo pip install SpeechRecognition
+sudo pip3 install SpeechRecognition
 ```
 
-And most important library, the inkyphat library from Pimoroni. Pimoroni do offer a newer repo but the old one works good enough.
-
-* [Inkyphat Old Repo](https://github.com/pimoroni/inky-phat)
-
-I recommend install with,
+And most important library, the [inkyphat library from Pimoroni](https://github.com/pimoroni/inky-phat). I recommend install with,
 
 ```
-curl https://get.pimoroni.com/inkyphat | bash
+sudo apt-get install python3-inkyphat
 ```
 
 All listed libraries should run in python3 environment.
 
-## Notes
+## Function
 
-This repo will be constantly updated.
+The speech recognition is set to catch keywords that triggers different functions. Current audio keyword contains:
+
+```
+logo (showing the original logo from inkyphat)
+calendar (showing calendar)
+clean (eink color cleaning, clear up color after multiple uses)
+```
 
 (I am using os.system for calling in main.py, not a good practice but there is conflict between 2.7 and 3.4 in my raspbian)
 
+## Artwork
+
+All .png artwork is done through Pixilart and organized in [my gallery](https://www.pixilart.com/pingrenworkhard/gallery).
+
+Check out [Artwork.md](master/resources/ShibaInu_resources/Artwork.md) for more information.
+
+## Notes
+
+This repo will be constantly updated as developed.
+
+Multiple functions and features are still in construction progress.
+
+Contact me if you have any question.
