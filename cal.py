@@ -11,7 +11,7 @@ inkyphat.set_border(inkyphat.BLACK)
 text = Image.open("resources/calendar.png")
 text_mask = inkyphat.create_mask(text, [inkyphat.WHITE])
 
-inkyphat.set_image("resources/ShibaInu_resources/calendar_ShibaInu.png",colswap=[1,0,2])
+inkyphat.set_image("resources/ShibaInu_resources/calendar.png",colswap=[1,0,2])
 
 cal = calendar.Calendar()
 now = datetime.datetime.now()
