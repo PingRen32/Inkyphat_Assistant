@@ -23,7 +23,7 @@ I bought the yellow/Black/White for color of my design.
 
 Red/Black/White or Black/White pHat are availiable from their website.
 
-## Setup
+### Setup
 
 First prepare a SD card with Raspbian Stretch Lite,
 
@@ -77,7 +77,7 @@ Personally I highly recommend using PuTTY for SSH client.
 Raspbian default username is "pi" and password is "raspberry". Now SSH should be functional.
 
 
-## Installing
+### Installing Libraries
 
 Start with updating and upgrading Raspbian
 
@@ -110,7 +110,15 @@ sudo apt-get install python3-inkyphat
 
 All listed libraries should run in python3 environment.
 
-## Function
+### Clone Git Repo
+
+Clone this git repo offline,
+
+```
+git clone https://github.com/PingRen32/Inkyphat_Assistant
+```
+
+### Function Availiable
 
 The speech recognition is set to catch keywords that triggers different functions. Current audio keyword contains:
 
@@ -122,7 +130,7 @@ clean (eink color cleaning, clear up color after multiple uses)
 
 (I am using os.system for calling in main.py, not a good practice but there is conflict between 2.7 and 3.4 in my raspbian)
 
-## Artwork
+### Artwork
 
 All .png artwork is done through Pixilart and organized in [my gallery](https://www.pixilart.com/pingrenworkhard/gallery).
 
