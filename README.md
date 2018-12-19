@@ -96,22 +96,28 @@ sudo apt-get upgrade
 To support microphone audio input, [Pyaudio](https://people.csail.mit.edu/hubert/pyaudio/) is needed.
 
 ```
-sudo pip3 install pyaudio
+pip3 install pyaudio
 ```
 
 Note that 'sudo' is necessary only if there is permission error during installing.
 
 
-In this project, I used python [SpeechRecognition library](https://github.com/realpython/python-speech-recognition) for speech recognition.
+In this project, I used python [SpeechRecognition library](https://github.com/realpython/python-speech-recognition) for speech recognition,
 
 ```
-sudo pip3 install SpeechRecognition
+pip3 install SpeechRecognition
 ```
 
 And most important library, the [inkyphat library from Pimoroni](https://github.com/pimoroni/inky-phat). I recommend install with,
 
 ```
-sudo apt-get install python3-inkyphat
+apt-get install python3-inkyphat
+```
+
+Install Yahoo Weather API,
+
+```
+pip3 install weather-api
 ```
 
 All listed libraries should run in python3 environment.
