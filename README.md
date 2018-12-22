@@ -114,7 +114,7 @@ And most important library, the [inkyphat library from Pimoroni](https://github.
 apt-get install python3-inkyphat
 ```
 
-Install Yahoo Weather API,
+Install Python Yahoo Weather API module,
 
 ```
 pip3 install weather-api
@@ -155,7 +155,9 @@ Updates for more functions in progress.
 
 All .png artwork is done through Pixilart and organized in [my gallery](https://www.pixilart.com/pingrenworkhard/gallery).
 
-Check out [Artwork Information](https://github.com/PingRen32/Inkyphat_Assistant/blob/master/resources/ShibaInu_resources/ARTWORK.md) for more information.
+Check out [Shiba Inu Artwork Information](https://github.com/PingRen32/Inkyphat_Assistant/blob/master/resources/ShibaInu_resources/ARTWORK.md) for more information.
+
+and [Weather Icon Information](https://github.com/PingRen32/Inkyphat_Assistant/blob/master/resources/Weather/Info.md)
 
 ---
 ## Notes
