@@ -1,5 +1,6 @@
 import speech_recognition as sr
 import os
+import message
 
 r = sr.Recognizer()
 os.system('python3 startup.py')
@@ -12,12 +13,14 @@ while True:
         text = r.recognize_google(audio)
         print(text)
         if "logo" in text:
-            os.system('python3 logo.py')
+            import logo
         elif "calendar" in text:
-            os.system('python3 cal.py')
+            import cal
         elif "clean" in text:
-            os.system('python3 clean.py')
-            os.system('python3 message.py Done!')
+            import clean
+            message.printmessage('Done!')
+        elif "weather" in text:
+            import yahoo_weather
         else:
             continue
     except sr.UnknownValueError:
