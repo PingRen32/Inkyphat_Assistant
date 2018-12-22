@@ -155,9 +155,7 @@ Updates for more functions in progress.
 
 All .png artwork is done through Pixilart and organized in [my gallery](https://www.pixilart.com/pingrenworkhard/gallery).
 
-Check out [Shiba Inu Artwork Information](https://github.com/PingRen32/Inkyphat_Assistant/blob/master/resources/ShibaInu_resources/ARTWORK.md) for more information.
-
-and [Weather Icon Information](https://github.com/PingRen32/Inkyphat_Assistant/blob/master/resources/Weather/Info.md)
+Check out [Shiba Inu Artwork Information](../master/resources/ShibaInu_resources/ARTWORK.md) and [Weather Icon Information](../master/resources/Weather/Info.md) for more information.
 
 ---
 ## Notes
