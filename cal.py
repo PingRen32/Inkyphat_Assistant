@@ -1,7 +1,5 @@
 import datetime
-import time
 import calendar
-import sys
 from PIL import Image, ImageFont
 import inkyphat
 

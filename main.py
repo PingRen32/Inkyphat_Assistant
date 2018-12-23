@@ -18,7 +18,7 @@ while True:
             import cal
         elif "clean" in text:
             import clean
-            message.printmessage('Done!')
+            message.printmessage("cute.png",'Done!')
         elif "weather" in text:
             import yahoo_weather
         else:
