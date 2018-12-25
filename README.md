@@ -145,6 +145,7 @@ The speech recognition is set to catch keywords that triggers different function
 logo (showing the original logo from inkyphat)
 calendar (showing calendar)
 clean (eink color cleaning, clear up color after multiple uses)
+weather (show current date and time temperature, along with weather condition and its icon)
 ```
 
 Updates for more functions in progress.
