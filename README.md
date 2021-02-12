@@ -116,6 +116,8 @@ apt-get install python3-inkyphat
 
 Install Python Yahoo Weather API module,
 
+UPDATE by 2021: seems yahoo have already stop supporting this API, this feature is no longer usable, will find a fix later sometime
+
 ```
 pip3 install weather-api
 ```
