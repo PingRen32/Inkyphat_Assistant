@@ -163,8 +163,8 @@ Check out [Shiba Inu Artwork Information](../master/resources/ShibaInu_resources
 ---
 ## Notes
 
-This repo will be constantly updated as developed.
+This repo is currently paused for development.
 
-Multiple functions and features are still in construction progress.
+Multiple functions and features are still in plan for construction progress.
 
 Contact me if you have any question.
